@@ -1,0 +1,10 @@
+### Create user
+POST http://localhost:3000/users.json
+Content-Type: application/json
+
+{
+  "name": "Sally",
+  "email": "sally@example.com",
+  "password": "password",
+  "password_confirmation": "password"
+}
